@@ -1,2 +1,2 @@
-# 20230529_Training
-This is used for docs-as-code training
+# 20230529Jyvaskyla
+ Content for Day One of Jyvaskyla couse
