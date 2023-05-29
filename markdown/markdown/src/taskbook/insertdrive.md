@@ -2,7 +2,7 @@
 author: Howe Tuduit
 ---
 
-# Attach the drive to the system
+# Attach the drives to your system
 
 The drive needs to be attached to power cables and other cables inside the computer.
 
