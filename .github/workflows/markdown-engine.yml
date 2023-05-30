@@ -23,8 +23,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     
     steps:
-      - uses: actions/checkout@v2
-      - uses: jontze/action-mdbook@v1
+      - uses: actions/checkout@v3
+      - uses: jontze/action-mdbook@v2
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           # Optional Plugins have to be enabled
@@ -43,9 +43,9 @@ jobs:
       - name: Show open-on-gh version
         run: mdbook-open-on-gh --version
       - name: Build markdown document
-        run: mdbook build markdown -d out
+        run: mdbook build markdown /home/runner/work/20230529_Training/20230529_Training/markdown -d out
       - name: Store HTML
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: html-output
           path: markdown/out/**/*.html
