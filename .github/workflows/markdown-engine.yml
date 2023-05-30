@@ -48,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: html-output
-          path: markdown/out/**/*.html
+          path: markdown/markdown/out/**/*.html
